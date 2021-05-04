@@ -141,7 +141,7 @@ blockquote span::before{
 
 
 .hero{
-  background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent),url('../images/pattern.png');
+  background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent),url('../images/backgroung.png');
   /* background-repeat: no-repeat; */
   /* background-position: left 50px bottom -50px; */
   /* background-size: cover; */
