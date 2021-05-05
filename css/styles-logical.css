@@ -14,13 +14,13 @@
   font-family: charter;
   src: url('../fonts/charter-bold.otf');
   font-style: normal;
-  font-weight: 400;
+  font-weight: bold;
 }
 @font-face{
   font-family: charter;
   src: url('../fonts/charter-bold-italic.otf');
   font-style: italic;
-  font-weight: 400;
+  font-weight: bold;
 }
 :root{
 font-size: 18px;
