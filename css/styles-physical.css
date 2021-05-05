@@ -17,13 +17,13 @@
   font-family: charter;
   src: url('../fonts/charter-bold.otf');
   font-style: normal;
-  font-weight: 400;
+  font-weight: bold;
 }
 @font-face{
   font-family: charter;
   src: url('../fonts/charter-bold-italic.otf');
   font-style: italic;
-  font-weight: 400;
+  font-weight: bold;
 }
 :root{
 font-size: 18px;
@@ -141,7 +141,9 @@ blockquote span::before{
 
 
 .hero{
-  background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent),url('../images/backgroung.png');
+  /* background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent),url('../images/pattern.png'); */
+  background-image: url('../images/pattern.png');
+
   /* background-repeat: no-repeat; */
   /* background-position: left 50px bottom -50px; */
   /* background-size: cover; */
