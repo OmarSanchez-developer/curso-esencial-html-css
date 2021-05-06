@@ -27,7 +27,7 @@ font-size: 18px;
   --gray30: #212121;
   --gray20: #212429;
   --gray10: #616161;
-  direction: rtl;
+  /* direction: rtl; */
 }
 
 body {

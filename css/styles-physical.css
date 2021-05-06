@@ -68,18 +68,17 @@ h1{
   /* font-size: 3.75em; */
   margin-top: 64px;
   margin-bottom: 16px;
-  /* margin-left: 20px;
-  margin-right: 10px; */
-  /* margin:top right bottom left; */
-  /* margin: 64px 10px 16px 20px;
+  /* margin-left: 20px; */
+  /* margin-right: 10px;
+  margin: 64px 10px 16px 20px;
   margin: 10px 5px;
   margin: 30px 20px 10px; */
   /* border: 1px solid red; */
 }
 
-/* h1 +  p {
-  margin-bottom: 64px;
-} */
+h1 ~  p {
+margin-bottom: 64px;
+};
 
 hr {
   margin: 64px 0;
@@ -97,25 +96,24 @@ h3{
   margin-top: 16px;
   margin-bottom:24px;
   font-weight: normal;
-  width: 200px;
+  /* width: 200px;
   padding: 20px;
-  border: 1px solid red;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
 
 pre{
   background: #FEC62E;
-  padding: 40px;
+  /* padding: 40px; */
    /* padding-left: 40px; */
-  font-family: 'Roboto';
-  line-height: 24px;
+  /* font-family: 'Roboto';
+  line-height: 24px; */
 }
 
 blockquote{
-  font-size: 24px;
   margin: 32px 0;
+  /* font-size: 24px;
   padding-left: 16px;
-  line-height: 24px;
+  line-height: 24px; */
   /* border: 10px solid red; */
   /* border-top: 1px solid pink; */
   /* border-top-color: aqua; */
@@ -141,16 +139,15 @@ blockquote span::before{
 
 
 .hero{
-  /* background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent),url('../images/pattern.png'); */
-  background-image: url('../images/pattern.png');
-
+  background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent),url('../images/pattern.png');
+  /* background-image: url('../images/pattern.png'); */
   /* background-repeat: no-repeat; */
   /* background-position: left 50px bottom -50px; */
   /* background-size: cover; */
   height: 350px;
 }
 .section-content{
-  margin-top:164px;
+  margin-top:40px;
 }
 
 .section-content:first-of-type{
