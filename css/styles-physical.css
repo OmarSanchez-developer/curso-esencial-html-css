@@ -113,14 +113,13 @@ blockquote{
   font-size: 24px;
   margin: 32px 0;
   padding-left: 16px;
-
-  line-height: 24px; */
+  line-height: 24px;
   /* border: 10px solid red; */
-  /* border-top: 1px solid pink; */
+  /* border-top: 10px solid pink; */
   /* border-top-color: aqua; */
   /* border-top-style: dashed; */
   /* border-radius: 50px 100px 10px 0; */
-  /* border-left: 4px solid var(--gray30); */
+  border-left: 4px solid var(--gray30);
 }
 
 blockquote span{
