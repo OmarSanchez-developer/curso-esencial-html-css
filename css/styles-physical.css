@@ -73,7 +73,10 @@ h1{
   margin: 64px 10px 16px 20px;
   margin: 10px 5px;
   margin: 30px 20px 10px; */
-  /* border: 1px solid red; */
+  border: 10px solid red;
+  width: 400px;
+  height: 400px;
+  padding: 40px;
 }
 
 /* h1 +  p {
@@ -96,9 +99,10 @@ h3{
   margin-top: 16px;
   margin-bottom:24px;
   font-weight: normal;
-  /* width: 200px;
+  width: 200px;
   padding: 20px;
-  box-sizing: border-box; */
+  border: 1px solid red;
+  box-sizing: border-box;
 }
 
 pre{
@@ -129,6 +133,19 @@ blockquote span::before{
   content: '-';
 }
 
+.form{
+  font-size: 0;
+}
+
+input{
+  /* padding: 10px 50px; */
+  /* margin: 20px; */
+  /* display: block;
+  width: 500px; */
+  /* width: 50%;
+  box-sizing: border-box;
+  border: 2px solid red; */
+}
 .debug{
   box-shadow: inset 0 0 0 1px red;
   /* outline: 50px solid red; */
