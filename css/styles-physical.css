@@ -33,6 +33,9 @@ font-size: 18px;
   /* direction: rtl; */
 }
 
+html{
+  scroll-behavior: smooth;
+}
 body {
   color: var(--gray30);
   font-family: 'Roboto', sans-serif;
@@ -44,10 +47,30 @@ a {
   color: var(--gray30);
 }
 
-header{
+header {
   /* --gray10: red; */
   font-size: 14px;
+  width: 188px;
   color: var(--gray10);
+  position: absolute;
+  /* right: 0; */
+  /* bottom: 0; */
+  top: 64PX;
+  left: -232px;
+  /* top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; */
+  /* margin: 50px; */
+  /* top left bottom right z-index */
+  /* top: 200px; */
+  /* left: 300px; */
+  /* right: 50px;
+  bottom: 100px; */
+  /* position: absolute; */
+  z-index: 1;
+  /* position: fixed;
+  position: sticky; */
 }
 
 header a{
@@ -60,14 +83,19 @@ header a:hover{
 
 nav details summary{
   font-weight: bold;
+  line-height: 24px;
 }
 
+header li{
+  margin-bottom: 16px;
+}
 h1{
   font-size:60px;
   /* text-decoration: underline; */
   /* font-size: 3.75em; */
   margin-top: 64px;
   margin-bottom: 16px;
+  font-weight: normal;
   /* margin-left: 20px; */
   /* margin-right: 10px;
   margin: 64px 10px 16px 20px;
@@ -96,10 +124,13 @@ h3{
   margin-top: 16px;
   margin-bottom:24px;
   font-weight: normal;
-  width: 200px;
+  position: sticky;
+  top: 0;
+  background: white;
+  /* width: 200px;
   padding: 20px;
   /* border: 1px solid red; */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 pre{
@@ -130,6 +161,15 @@ blockquote span::before{
   content: '-';
 }
 
+.header {
+ position: sticky;
+ top: 0;
+}
+
+.header-content{
+  position: relative;
+
+}
 .main {
   /* background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent),url('../images/pattern.png'); */
 }
@@ -141,7 +181,7 @@ blockquote span::before{
 
 .main-content{
   /* background: blue; */
-  padding: 20px;
+  /* padding: 20px; */
   background: white;
 }
 
@@ -175,6 +215,7 @@ background: purple;
 }
 .section-content{
   margin-top: 164px;
+  position: relative;
 }
 
 .section-content:first-of-type{
@@ -198,7 +239,7 @@ background: purple;
 .section-content h3{
   counter-increment: titleList;
   /* background-color: red; */
-  padding-bottom: 4px;
+  padding-bottom: 8px;
 }
 .section-content h3::before {
   content: counter(titleList,decimal) '. ';
@@ -207,10 +248,13 @@ background: purple;
 
 .section-content h3::after {
   content: '';
-  width: 32px;
+  width: 80px;
   height: 4px;
   background: var(--gray30);
   display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 
