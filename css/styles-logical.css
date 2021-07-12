@@ -47,15 +47,42 @@ body {
 a {
   color: var(--white30);
 }
+.header{
+  position: sticky;
+  inset-block-start: -45px;
+  /* background: red;
+  position: fixed; */
+  /* inset: 50px; */
+  /* inset-inline:  50px; */
+  /* inset-block: 50px; */
+  /* block-size: 500px; */
+  /* inline-size: 500px; */
 
+}
+.header-content{
+  position: relative;
+  inset-block-start: 65px;
+}
 header{
   /* --white10: red; */
   font-size: 14px;
   color: var(--white);
+  position: absolute;
+  /* top */
+  inset-block-start: 0;
+  /* botton */
+  /* inset-block-end: ; */
+  /* left */
+  inset-inline-start: -208px ;
+  /* right */
+  /* inset-inline-end:; */
+  inline-size: 188px;
+
 }
 
 header li {
   color: var(--white20);
+  margin-block-end: 16px;
 }
 
 header a {
@@ -72,14 +99,17 @@ nav details summary{
   font-weight: bold;
 }
 
-h1, h2, h3 {
-  /* font-weight: normal; */
-}
+/* h1, h2, h3 {
+  /* font-weight: normal;
+} */
 
 h1{
   font-size:60px;
   margin-block-start: 64px;
   margin-block-end:  16px;
+  /* text-align: justify;
+  font-size: 20px; */
+  /* text-decoration: underline; */
   /* font-size: 3.75em; */
 }
 
@@ -100,11 +130,24 @@ hr {
 }
 pre{
 
-  background: var(--white10);
-  padding: 40px;
-  /* border: 1px solid red; */
-  overflow: auto;
-  border-radius: 8px;
+    background: var(--white10);
+    padding: 40px;
+    /* border: 1px solid red; */
+    overflow: auto;
+    border-radius: 8px;
+    border: 10px solid red;
+    border-left: 5px  solid blue;
+    border-inline-start: 5px solid white;
+    border-block-end: 20px solid pink;
+    border-inline-end: 5px solid green;
+    border-block-start-color: blue;
+    border: 10px solid #5551FF;
+    box-shadow: -10px 10px 0 0 #ABAAF6;
+    /* margin-block-end: 30px;
+    border-radius: 50%;
+    inline-size: 400px;
+    block-size: 400px; */
+    border-start-start-radius: 60px;
 }
 
 p{
@@ -117,6 +160,7 @@ p{
   /* background-position: left 50px bottom -50px; */
   /* background-size: cover; */
   height: 350px;
+
 }
 
 .section-content img{
@@ -137,13 +181,14 @@ p{
   content: counter(titleList,decimal)'. ';
 }
 
-/* .section-content h3::after {
+ /* .section-content h3::after {
   content: '';
   width: 32px;
   height: 4px;
   background: var(--white30);
   display: inline-block;
 } */
+
 blockquote {
   margin-block-start: 80px;
   margin-block-end: 63px;
