@@ -158,9 +158,9 @@
             <h2>
               Setup
             </h2>
-            <img src="./images/google-chrome.png" alt="Logo de Google Chrome">
             <h3 id="google-chrome">Google Chrome</h3>
             <p>
+              <img  src="./images/google-chrome.png" alt="Logo de Google Chrome">
               Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de
               desarrollo avanzadas y de amigable uso.
             </p>
@@ -196,19 +196,19 @@
             <h3 id="html">Qué es HTML</h3>
             <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado
               y la estructura del contenido. <code>const name = 'your name'</code></p>
-              <pre>
-    &lt;!DOCTYPE html&gt;
-    &lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot;&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-    &lt;title&gt;Document&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
 
-    &lt;/body&gt;
-    &lt;/html&gt;
-    </pre>
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
             <h3 id="etiquetas">Etiquetas</h3>
             <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene
             características y usos diferentes aunque visualmente den un resultado similar.</p>
@@ -247,20 +247,11 @@
             </p>
             <!-- <div> -->
               <ol>
-                <li>
-                  Tamaño del del contenido / ancho y alto
-                </li>
-                <li>
-                  Padding / Relleno
-                </li>
-                <li>
-                  Border / Bordes
-                </li>
-                <li>
-                  Margin / Márgenes
-                </li>
+                <li>Tamaño del del contenido / ancho y alto</li>
+                <li>Padding / Relleno</li>
+                <li>Border / Bordes</li>
+                <li>Margin / Márgenes</li>
               </ol>
-            <!-- </div> -->
             <h3 class="modelo-caja">Propiedades físicas para el modelo de caja:</h3>
             <ul>
               <li>
@@ -275,14 +266,55 @@
               <li>inline-size / block-size</li>
               <li>margin-block | margin-inline | margin-block-start | margin-block-end | margin-inline-start | margin-inline-end</li>
               <li>border-block | border-inline | border-block-start | border-block-end | border-inline-start | border-inline-end</li>
-              <li>padding-block | padding
-                -inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
+              <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
             </ul>
           </section>
+          <div class="section-content">
+            <h2>Hola estos son algunos videos muy cheveres</h2>
+                <div class="slider">
+                  <scroll-container class="slider-container">
+                    <scroll-page class="slider-slide" id="video-1">
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/5f5Ig_U2Bpk" title="YouTube video player"
+                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                  </scroll-page>
+                    <scroll-page class="slider-slide" id="video-2">
+                      <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/5f5Ig_U2Bpk" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </scroll-page>
+                    <scroll-page class="slider-slide" id="video-3">
+                      <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/5f5Ig_U2Bpk" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </scroll-page>
+                  </scroll-container>
+                  <div class="slider-bullet-list">
+                    <a href="#video-1" class="slider-bullet"></a>
+                    <a href="#video-2" class="slider-bullet"></a>
+                    <a href="#video-3" class="slider-bullet"></a>
+                  </div>
+              </div>
+          </div>
           <p>
             Si tienes alguna pregunta escríbeme a
             <a href="mailto:omarglzsanchez@gmail.com" target="_blank">bibliografia</a>
           </p>
+          <div class="section-content">
+            <h2>Ingresa a nuestro newsletter</h2>
+            <form action="#" class="form">
+              <!-- <select name="" id="">
+                <option value="">curso 1</option>
+                <option value="">curso 2</option>
+              </select>
+               <input type="checkbox">
+               <input type="radio"> -->
+              <input type="text" required placeholder="Nombre">
+              <input type="email" required placeholder="Correo Electrónico">
+              <input type="submit" required value="Suscribirme">
+            </form>
+          </div>
+
         </div>
       </div>
     </main>
