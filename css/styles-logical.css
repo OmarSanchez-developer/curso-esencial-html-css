@@ -48,8 +48,8 @@ a {
   color: var(--white30);
 }
 .header{
-  position: sticky;
-  inset-block-start: -45px;
+  /* position: sticky;
+  inset-block-start: -45px; */
   /* background: red;
   position: fixed; */
   /* inset: 50px; */
@@ -60,23 +60,25 @@ a {
 
 }
 .header-content{
-  position: relative;
-  inset-block-start: 65px;
+  /* position: relative;
+  inset-block-start: 65px; */
+  padding-inline: 20px;
 }
 header{
+  margin-block-start: 20px;
   /* --white10: red; */
   font-size: 14px;
   color: var(--white);
-  position: absolute;
+  /* position: absolute; */
   /* top */
-  inset-block-start: 0;
+  /* inset-block-start: 0; */
   /* botton */
   /* inset-block-end: ; */
   /* left */
-  inset-inline-start: -208px ;
+  /* inset-inline-start: -208px ; */
   /* right */
   /* inset-inline-end:; */
-  inline-size: 188px;
+  /* inline-size: 188px; */
 
 }
 
@@ -104,8 +106,8 @@ nav details summary{
 } */
 
 h1{
-  font-size:60px;
-  margin-block-start: 64px;
+  font-size:40px;
+  margin-block-start: 20px;
   margin-block-end:  16px;
   /* text-align: justify;
   font-size: 20px; */
@@ -159,8 +161,7 @@ p{
   /* background-repeat: no-repeat; */
   /* background-position: left 50px bottom -50px; */
   /* background-size: cover; */
-  height: 350px;
-
+  block-size: 50px;
 }
 
 .section-content img{
@@ -266,4 +267,51 @@ blockquote p {
     block-size: 15px;
     background: white;
     border-radius: 50px;
+  }
+
+  .form input{
+    inline-size: 100%;
+    border: 1px solid var(--white30);
+    background: #251F24;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-inline: 16px;
+    padding-block: 12px;
+    color: var(--white30);
+    font-size: 16px;
+    display: block;
+    margin-block-end:24px;
+  }
+
+  .form input[type="submit"]{
+    background: #157EFB;
+    border: none;
+  }
+  .form input::-webkit-input-placeholder{
+    color: var(--white20);
+  }
+
+  @media screen and (min-width: 1366px){
+    .hero{
+       block-size: 350px;
+    }
+    .header{
+      position: sticky;
+      inset-block-start: -45px;
+    }
+    .header-content{
+      position: relative;
+      inset-block-start: 65px;
+      padding-inline: 0;
+    }
+    header{
+      position: absolute;
+      inset-block-start: 0;
+      inset-inline-start: -208px ;
+      inline-size: 188px;
+    }
+    h1{
+      font-size: 60px;
+      margin-block-start: 64px;
+    }
   }
