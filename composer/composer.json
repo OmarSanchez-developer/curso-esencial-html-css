@@ -1,0 +1,27 @@
+{
+    "name": "omarsanchez/composer",
+    "description": "Proyecto basico",
+    "autoload": {
+        "psr-4": {
+            "Omarsanchez\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Omar Sanchez",
+            "email": "ing_omarglez@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":_ {
+            "App\\": "app/"
+    },
+        "files":[
+            "app/helpers.php"
+
+        ]
+           
+
+    }
+}
